@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-04T11:10:34 IST" name="Suite" finished-at="2024-04-04T11:10:37 IST" duration-ms="3710">
+    <groups>
+      <group name="smoke">
+        <method signature="ExGrouping.addEmployee()[pri:0, instance:Testng.ExGrouping@13e344d]" name="addEmployee" class="Testng.ExGrouping"/>
+        <method signature="ExGrouping.addJobTitle()[pri:0, instance:Testng.ExGrouping@13e344d]" name="addJobTitle" class="Testng.ExGrouping"/>
+        <method signature="ExGrouping.addadmin()[pri:0, instance:Testng.ExGrouping@13e344d]" name="addadmin" class="Testng.ExGrouping"/>
+      </group> <!-- smoke -->
+      <group name="Regression">
+        <method signature="ExGrouping.DeleteEmployee()[pri:0, instance:Testng.ExGrouping@13e344d]" name="DeleteEmployee" class="Testng.ExGrouping"/>
+        <method signature="ExGrouping.addEmployee()[pri:0, instance:Testng.ExGrouping@13e344d]" name="addEmployee" class="Testng.ExGrouping"/>
+      </group> <!-- Regression -->
+      <group name="sanity">
+        <method signature="ExGrouping.EditEmployee()[pri:0, instance:Testng.ExGrouping@13e344d]" name="EditEmployee" class="Testng.ExGrouping"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-04-04T11:10:34 IST" name="Test" finished-at="2024-04-04T11:10:37 IST" duration-ms="3710">
+      <class name="Testng.Expriority">
+        <test-method signature="addEmployee()[pri:1, instance:Testng.Expriority@6221a451]" started-at="2024-04-04T11:10:34 IST" name="addEmployee" finished-at="2024-04-04T11:10:34 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method signature="EditEmployee()[pri:2, instance:Testng.Expriority@6221a451]" started-at="2024-04-04T11:10:34 IST" name="EditEmployee" finished-at="2024-04-04T11:10:34 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditEmployee -->
+        <test-method signature="DeleteEmployee()[pri:3, instance:Testng.Expriority@6221a451]" started-at="2024-04-04T11:10:34 IST" name="DeleteEmployee" finished-at="2024-04-04T11:10:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmployee -->
+      </class> <!-- Testng.Expriority -->
+      <class name="Testng.ExGrouping">
+        <test-method signature="DeleteEmployee()[pri:0, instance:Testng.ExGrouping@13e344d]" started-at="2024-04-04T11:10:34 IST" name="DeleteEmployee" finished-at="2024-04-04T11:10:34 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmployee -->
+        <test-method signature="EditEmployee()[pri:0, instance:Testng.ExGrouping@13e344d]" started-at="2024-04-04T11:10:34 IST" name="EditEmployee" finished-at="2024-04-04T11:10:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditEmployee -->
+        <test-method signature="addEmployee()[pri:0, instance:Testng.ExGrouping@13e344d]" started-at="2024-04-04T11:10:34 IST" name="addEmployee" finished-at="2024-04-04T11:10:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method signature="addJobTitle()[pri:0, instance:Testng.ExGrouping@13e344d]" started-at="2024-04-04T11:10:34 IST" name="addJobTitle" finished-at="2024-04-04T11:10:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addJobTitle -->
+        <test-method signature="addadmin()[pri:0, instance:Testng.ExGrouping@13e344d]" started-at="2024-04-04T11:10:34 IST" name="addadmin" finished-at="2024-04-04T11:10:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addadmin -->
+      </class> <!-- Testng.ExGrouping -->
+      <class name="Testng.OrangeTravels">
+        <test-method signature="Travels()[pri:0, instance:Testng.OrangeTravels@1ffaf86]" started-at="2024-04-04T11:10:34 IST" name="Travels" finished-at="2024-04-04T11:10:37 IST" duration-ms="3674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Travels -->
+      </class> <!-- Testng.OrangeTravels -->
+      <class name="Testng.ExAnnotations">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:Testng.ExAnnotations@76b1e9b8]" started-at="2024-04-04T11:10:34 IST" name="beforesuite" finished-at="2024-04-04T11:10:34 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Testng.ExAnnotations@76b1e9b8]" started-at="2024-04-04T11:10:34 IST" name="beforetest" finished-at="2024-04-04T11:10:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Testng.ExAnnotations@76b1e9b8]" started-at="2024-04-04T11:10:34 IST" name="beforeclass" finished-at="2024-04-04T11:10:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod1()[pri:0, instance:Testng.ExAnnotations@76b1e9b8]" started-at="2024-04-04T11:10:34 IST" name="beforemethod1" finished-at="2024-04-04T11:10:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod1 -->
+        <test-method signature="my1stTestng()[pri:0, instance:Testng.ExAnnotations@76b1e9b8]" started-at="2024-04-04T11:10:34 IST" name="my1stTestng" finished-at="2024-04-04T11:10:34 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my1stTestng -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Testng.ExAnnotations@76b1e9b8]" started-at="2024-04-04T11:10:34 IST" name="aftermethod" finished-at="2024-04-04T11:10:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Testng.ExAnnotations@76b1e9b8]" started-at="2024-04-04T11:10:34 IST" name="afterClass" finished-at="2024-04-04T11:10:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:Testng.ExAnnotations@76b1e9b8]" started-at="2024-04-04T11:10:37 IST" name="AfterTest" finished-at="2024-04-04T11:10:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:Testng.ExAnnotations@76b1e9b8]" started-at="2024-04-04T11:10:37 IST" name="Aftersuite" finished-at="2024-04-04T11:10:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftersuite -->
+      </class> <!-- Testng.ExAnnotations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
